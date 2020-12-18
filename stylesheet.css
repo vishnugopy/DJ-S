@@ -74,3 +74,25 @@ h1{
   
 
 
+@media only screen and (max-width: 600px) {
+
+    .flex{
+        padding: 3%;
+    }
+
+    h1{
+        font-size: 20px;
+        margin: 0 3px;
+        display: none;
+    }
+
+    .logo{
+        width: 20px;
+    }
+
+    .button{
+        width: 30%; 
+        top: 2px;
+        z-index: 3;
+    }
+  }
